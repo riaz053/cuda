@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 75vh;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
+
+    .row {
+        margin: 0 15px;
+    }
+
+    .hero-text-box {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-nav {
+        display: none;
+    }
+
+    html {
+        font-size: 57.5%;
+    }
+
+
+    .clientPhoto,
+    .clientReview {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .contactSection form {
+        margin: 0;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        height: 70vh;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 65vh;
+    }
+
+    .little-description {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+    .port-filter button {
+        background: #ebc985;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        border: 0;
+        border-radius: .5rem;
+        text-transform: uppercase;
+        color: #3c4761;
+        margin: 0 .5rem;
+        transition: .5s;
+    }
+
+    .contactSection form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .span_1_of_2 {
+        width: 100%;
+    }
+
+    .contactSection form .row {
+        margin: 0;
+    }
+
+    .contactSection input[type="text"],
+    .contactSection input[type="email"],
+    .contactSection textarea {
+        background: #273a71;
+        border: 0.1rem solid #273a71;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 1.8rem;
+        color: #ffffff;
+        margin: .5rem 0;
+    }
+}
